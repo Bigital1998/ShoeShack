@@ -7,6 +7,7 @@ if(!isset($_SESSION['email'])){
     header('location:signup.php');
 }
 ?>
+
 <div class="container-fluid">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -24,22 +25,18 @@ if(!isset($_SESSION['email'])){
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <img src="./shoes/kiatu3.jpg" alt="Nikey" style="width:100%;height: initial;">
+                <img src="./shoes/kiatu3.jpg" alt="cool" style="width:100%;height: initial;">
             </div>
             <div class="item">
-                <img src="./shoes/kiatu4.jpg" alt="Jordans" style="width:100%;height: initial;">
-            </div>
-            <div class="item">
-                <img src="./shoes/kiatu3(7).jpg" alt="Filas" style="width:100%; height: initial">
+                <img src="./shoes/kiatu4.jpg" alt="cool" style="width:100%;height: initial;">
             </div>
 
-            <div class="item">
-                <img src="./shoes/kiatu3(6).jpg" alt="cool shoe" style="...">
-            </div>
 
             <div class="item">
-                <img src="./shoes/kiatu3(8).jpg" alt="cool shoe" style="...">
+                <img src="./shoes/airjordan.jpg" alt="cool shoe" style="...">
             </div>
+
+
 
             <div class="item">
                 <img src="./shoes/kiatu7.jpg" alt="cool shoe" style="...">
@@ -72,5 +69,3 @@ if(!isset($_SESSION['email'])){
         </a>
     </div>
 </div>
-
-<?php include 'footer.php'; ?>

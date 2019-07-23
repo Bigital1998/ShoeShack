@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>El Shoe Shack</title>
+    <title>Calliagniri ShoeShack</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -9,6 +9,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -19,7 +21,7 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="background-color:black;background-image: url("kiatutwo.jpeg.jpg")">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="Upload.php">Upload</a></li>
                 <li><a href="gallery.php">Gallery</a></li>

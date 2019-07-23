@@ -1,6 +1,17 @@
 <?php include 'header.php'; ?>
+<style>
+    .container{
+        height: 600px;
+        background-image: url("./shoes/kiatutwo.jpeg.jpg");
+        background-size: cover;
+    }
+</style>
 
-<div class="container">
+
+
+
+
+<div class="container"  >
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
@@ -51,7 +62,7 @@
                                 }
                                 ?>
                             </span>
-                    <input type="password" name="password" class="form-control" id="pwd">
+                    <input type="password" name="password" class="form-control" id="password">
                 </div>
                 <button type="submit" name="signup" class="btn btn-default">Signup</button>
             </form>

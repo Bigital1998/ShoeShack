@@ -50,6 +50,15 @@ session_start();
                         <img src="./shoes/kiatutwo.jpeg.jpg" alt="cool shoe" style="...">
                     </div>
 
+                    <div class="item">
+                        <img src="./shoes/kiatu3%20(6).jpg." alt="cool" style="width:100%; height: initial">
+                    </div>
+
+
+
+
+
+
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>

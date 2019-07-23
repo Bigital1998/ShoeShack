@@ -1,5 +1,15 @@
 <?php include'header.php'?>
 
+<style>
+
+</style>
+
+
+
+
+
+
+
  <div class="row">
     <form action="uploadHandler.php" method="post" enctype="multipart/form-data">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
@@ -19,7 +29,7 @@
 
             <div class="form-group">
                 <label for="quality">Quality:</label>
-                <input type="number" name="size" id="size"><br>
+                <input type="text" name="size" id="size"><br>
             </div>
 
 
